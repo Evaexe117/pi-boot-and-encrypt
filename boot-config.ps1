@@ -1205,7 +1205,7 @@ If ($BootDrives.length -ne 0) {
   $BootConfigDockerLabel.Visible = $true
   $BootConfigDocker.Visible = $true
 }else{
-  $BootConfigFound.text = "No SD Cards found"
+  $BootConfigFound.text = "No SD Cards Found - Your SD card must be named 'boot' or 'BOOT'."
   $BootConfigFound.ForeColor = "#D0021B"
   $cancelBtn.text = "Close"
 }
